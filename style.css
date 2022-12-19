@@ -1,0 +1,96 @@
+body{
+    text-align: center;
+    background-color: black;
+    color: azure;
+}
+input{
+margin-top: 20px;
+width: 200px;
+padding: 10px;
+border-radius: 20px;
+}
+button{
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;    
+    color: azure;
+    background-color: black
+}
+.guess{
+    border: solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.guess:hover{
+    color:white;
+    background-color:rgb(19, 46, 68);
+    border:solid black;
+}
+.easy{
+    padding: 10px;
+    border:solid white;
+    border-radius: 20px;
+    color: white;
+    background-color:black;
+    border:solid black;
+}
+.easy:hover{
+    color:black ;
+    background-color: darkkhaki;;
+}
+.medium{
+    padding: 10px;
+    border:solid tan;
+    border-radius: 20px;
+    color: white;
+    background-color:black;
+    border:solid black;
+}
+.medium:hover{
+    color: black;
+    background-color: orange;;
+}
+.hard{
+    padding: 10px;
+    border:solid white;
+    border-radius: 20px;
+    color: white;
+    background-color:black;
+    border:solid black;
+}
+.hard:hover{
+    color: black;
+    background-color: red;;
+}
+.win{
+    margin-left:585px;
+    width: 100px;
+    position: absolute;
+    top: 90px;
+    right: 400px;
+    color: gold;
+}
+.lose{
+    margin-left:585px;
+    width: 100px;
+    position: absolute;
+    top: 90px;
+    right: 430px;
+    color: brown;
+}
+p{
+    display:inline-block;
+}
+.e{
+    color:darkkhaki ;
+}
+.m{
+    color: orange;
+}
+.h{
+    color: red;
+}
+.empty{
+    color: indigo;
+}
